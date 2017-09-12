@@ -7,6 +7,7 @@ cask caffeine
 cask dash
 cask discord
 cask etcher
+cask firefox
 cask gitkraken
 cask google-chrome
 cask java
@@ -19,6 +20,8 @@ cask visual-studio-code
 tap homebrew/core
 brew ack
 brew asciinema
+brew asciiquarium
+brew azure-cli
 brew bash
 brew cairo
 brew ccat
