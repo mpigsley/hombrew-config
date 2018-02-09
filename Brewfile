@@ -1,27 +1,11 @@
 
 # tap repositories and their packages
 
-tap caskroom/cask
-cask alfred
-cask caffeine
-cask dash
-cask discord
-cask etcher
-cask firefox
-cask gitkraken
-cask google-chrome
-cask java
-cask recordit
-cask robo-3t
-cask slack
-cask spotify
-cask visual-studio-code
-
 tap homebrew/core
 brew ack
+brew adns
 brew asciinema
 brew asciiquarium
-brew azure-cli
 brew bash
 brew cairo
 brew ccat
@@ -35,37 +19,78 @@ brew gettext
 brew giflib
 brew git
 brew glib
+brew gmp
+brew gnutls
 brew googler
 brew icu4c
 brew imagemagick
 brew jpeg
+brew libassuan
 brew libffi
+brew libgcrypt
+brew libgpg-error
+brew libksba
 brew libpng
+brew libtasn1
 brew libtiff
 brew libtool
+brew libunistring
+brew libusb
 brew mas
+brew maven
 brew mongodb
+brew mysql
 brew ncdu
+brew nettle
 brew node
 brew noti
+brew npth
 brew openssl
+brew openssl@1.1
+brew p11-kit
 brew pcre
+brew pinentry
 brew pixman
 brew pkg-config
 brew python3
 brew readline
 brew redis
+brew scons
 brew sqlite
 brew thefuck
 brew tree
 brew watchman
+brew wget
 brew xz
 brew yarn
 
 tap homebrew/services
 
+tap caskroom/cask
+cask slack
+cask robo-3t
+cask visual-studio-code
+cask spotify
+cask android-sdk
+cask postman
+cask recordit
+cask docker
+cask dash
+cask caffeine
+cask android-studio
+cask discord
+cask firefox
+cask google-chrome
+cask java
+cask alfred
+cask etcher
+cask java-jdk-javadoc
+
 tap rcmdnk/file
 brew brew-file
+
+# Other Homebrew packages
+brew gpg
 
 # App Store applications
 appstore 1055511498 Day One (2.4.1)
