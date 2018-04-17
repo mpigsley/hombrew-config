@@ -9,7 +9,9 @@ brew asciiquarium
 brew bash
 brew cairo
 brew ccat
+brew cereal
 brew cloc
+brew cmake
 brew cmatrix
 brew exa
 brew fontconfig
@@ -52,9 +54,9 @@ brew pcre
 brew pinentry
 brew pixman
 brew pkg-config
-brew python3
 brew readline
 brew redis
+brew rustup-init
 brew scons
 brew sqlite
 brew thefuck
@@ -67,30 +69,31 @@ brew yarn
 tap homebrew/services
 
 tap caskroom/cask
-cask slack
-cask robo-3t
-cask visual-studio-code
-cask spotify
+cask alfred
 cask android-sdk
-cask postman
-cask recordit
-cask docker
-cask dash
-cask caffeine
 cask android-studio
+cask caffeine
+cask dash
 cask discord
+cask docker
+cask etcher
 cask firefox
 cask google-chrome
 cask java
-cask alfred
-cask etcher
 cask java-jdk-javadoc
+cask postman
+cask recordit
+cask robo-3t
+cask slack
+cask spotify
+cask visual-studio-code
 
 tap rcmdnk/file
 brew brew-file
 
 # Other Homebrew packages
 brew gpg
+brew python3
 
 # App Store applications
 appstore 1055511498 Day One (2.4.1)
